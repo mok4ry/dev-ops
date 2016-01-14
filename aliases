@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# note: this requires the GNU ls command (not the system ls of OS X)
+# For OS X: 'ls -lT' works similarly
+alias lstime="ls -la --time-style=\"+%Y-%m-%d %H:%M:%S\""
